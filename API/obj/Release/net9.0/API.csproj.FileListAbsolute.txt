@@ -33,3 +33,4 @@ C:\Users\darcy\OneDrive\Documents\Academy\level2\week4\RPS backend!\API\obj\Rele
 C:\Users\darcy\OneDrive\Documents\Academy\level2\week4\RPS backend!\API\obj\Release\net9.0\API.pdb
 C:\Users\darcy\OneDrive\Documents\Academy\level2\week4\RPS backend!\API\obj\Release\net9.0\API.genruntimeconfig.cache
 C:\Users\darcy\OneDrive\Documents\Academy\level2\week4\RPS backend!\API\obj\Release\net9.0\ref\API.dll
+C:\Users\darcy\OneDrive\Documents\Academy\level2\week4\RPS backend!\API\obj\Release\net9.0\API.sourcelink.json
