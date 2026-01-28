@@ -216,11 +216,20 @@ function aHandleP1Pick(aChoice) {
   // Check if the game is in CPU mode
   if (aMode === "cpu") {
 
-    // Get a random choice for the computer
-    let aCpuChoice = aRandomCpuChoice();
+//show quick status while waiting for API call
+aP1PickEl.textContent = aChoice;
+aP2PickEl.textContent = "..."
+aRoundResultEl.textContent = "CPU is thinking..."
+
+    // Get CPU move from API then play the round. This is replacing the random function in our javascript
+    aGetCpuChoiceFromApi()
+    .then(function (aCpuChoice){
+    aPlayRound(aChoice, aCpuChoice);
+
+    })
+    
 
     // Play the round immediately using Player 1's choice and CPU's choice
-    aPlayRound(aChoice, aCpuChoice);
 
     // Stop the function so PVP logic does NOT run
     return;
